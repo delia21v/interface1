@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect_delia.Proiect_DeliaController">
+   <children>
+      <ImageView fitHeight="343.0" fitWidth="565.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="318.0" fitWidth="570.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="154.0" layoutY="33.0" text="Modificare Departament" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="iddepartament_modif" layoutX="210.0" layoutY="83.0" onAction="#modificaDepartament" prefHeight="26.0" prefWidth="251.0" />
+      <TextField fx:id="nume_departament_modif" layoutX="210.0" layoutY="125.0" onAction="#modificaDepartament" prefHeight="26.0" prefWidth="251.0" />
+      <TextField fx:id="coordonator_modif" layoutX="210.0" layoutY="168.0" onAction="#modificaDepartament" prefHeight="26.0" prefWidth="251.0" />
+      <TextField fx:id="contact_modif" layoutX="210.0" layoutY="210.0" onAction="#modificaDepartament" prefHeight="26.0" prefWidth="251.0" />
+      <TextField fx:id="facultate_modif" layoutX="210.0" layoutY="249.0" onAction="#modificaDepartament" prefHeight="26.0" prefWidth="251.0" />
+      <Label layoutX="85.0" layoutY="84.0" text="IdDepartament" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="126.0" text="Nume" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="169.0" text="Coordonator" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="211.0" text="Contact" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="250.0" text="Facultate" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="ModificaDepartament" layoutX="226.0" layoutY="293.0" mnemonicParsing="false" onAction="#modificaDepartament" text="Modifica Departament" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="inapoi4" layoutX="269.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleButtonAction3" text="Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

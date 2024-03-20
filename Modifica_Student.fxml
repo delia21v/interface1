@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect_delia.Proiect_DeliaController">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="610.0" layoutX="-6.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="411.0" fitWidth="610.0" layoutX="-5.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="197.0" layoutY="20.0" text="Modifica Student" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idstudent_modif" layoutX="196.0" layoutY="71.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <TextField fx:id="nume_stud_modif" layoutX="197.0" layoutY="108.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <TextField fx:id="prenume_stud_modif" layoutX="197.0" layoutY="151.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <TextField fx:id="nr_matricol_modif" layoutX="196.0" layoutY="193.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <TextField fx:id="email_modif" layoutX="197.0" layoutY="235.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <TextField fx:id="an_studiu_modif" layoutX="196.0" layoutY="278.0" onAction="#modificaStudent" prefHeight="26.0" prefWidth="263.0" />
+      <Label layoutX="110.0" layoutY="71.0" text="IdStudent" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="108.0" text="Nume" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="151.0" text="Prenume" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="193.0" text="Nr Matricol" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="236.0" text="Email" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="278.0" text="An Studiu" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="Modifica" layoutX="270.0" layoutY="323.0" mnemonicParsing="false" onAction="#modificaStudent" text="Modifica Student" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="inapoi3" layoutX="301.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonAction2" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

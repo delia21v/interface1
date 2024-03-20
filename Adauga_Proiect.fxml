@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect_delia.Proiect_DeliaController">
+   <children>
+      <ImageView fitHeight="339.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="339.0" fitWidth="600.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="198.0" layoutY="26.0" text="Adaugare Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idstudent_add" layoutX="175.0" layoutY="74.0" onAction="#adaugareProiecte" prefHeight="26.0" prefWidth="315.0" />
+      <TextField fx:id="iddepartament_add" layoutX="175.0" layoutY="114.0" onAction="#adaugareProiecte" prefHeight="26.0" prefWidth="315.0" />
+      <TextField fx:id="data_predare_add" layoutX="175.0" layoutY="155.0" onAction="#adaugareProiecte" prefHeight="26.0" prefWidth="315.0" />
+      <TextField fx:id="tematica_add" layoutX="175.0" layoutY="193.0" onAction="#adaugareProiecte" prefHeight="26.0" prefWidth="315.0" />
+      <TextField fx:id="nume_proiect_add" layoutX="175.0" layoutY="231.0" onAction="#adaugareProiecte" prefHeight="26.0" prefWidth="315.0" />
+      <Label layoutX="100.0" layoutY="74.0" text="IdStudent" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="114.0" text="IdDepartament" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="155.0" text="Data Predare" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="193.0" text="Tematica" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="231.0" text="Nume Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="AdaugaProiect" layoutX="235.0" layoutY="270.0" mnemonicParsing="false" onAction="#adaugareProiecte" text="Adaugă Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="inapoi5" layoutX="274.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleButtonAction4" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

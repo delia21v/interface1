@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect_delia.Proiect_DeliaController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pozapibd.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="191.0" layoutY="26.0" text="Modificare Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idproiect_modif" layoutX="249.0" layoutY="72.0" prefHeight="26.0" prefWidth="259.0" />
+      <TextField fx:id="idstudentP_modif" layoutX="249.0" layoutY="111.0" prefHeight="26.0" prefWidth="259.0" />
+      <TextField fx:id="iddepartamentP_modif" layoutX="249.0" layoutY="149.0" prefHeight="26.0" prefWidth="259.0" />
+      <TextField fx:id="data_predare_modif" layoutX="249.0" layoutY="187.0" prefHeight="26.0" prefWidth="259.0" />
+      <TextField fx:id="tematica_modif" layoutX="249.0" layoutY="225.0" prefHeight="26.0" prefWidth="259.0" />
+      <Label layoutX="176.0" layoutY="74.0" text="IdProiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="113.0" text="IdStudent" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="151.0" text="IdDepartament" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nume_proiect_modif" layoutX="249.0" layoutY="265.0" prefHeight="26.0" prefWidth="259.0" />
+      <Label layoutX="153.0" layoutY="189.0" text="Data Predare" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="179.0" layoutY="227.0" text="Tematica" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="267.0" text="Nume Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="ModificaProiect" layoutX="218.0" layoutY="310.0" mnemonicParsing="false" onAction="#modificaProiect" text="Modifica Proiect" textFill="#28a82b">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="inapoi6" layoutX="251.0" layoutY="351.0" mnemonicParsing="false" onAction="#handleButtonAction5" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
